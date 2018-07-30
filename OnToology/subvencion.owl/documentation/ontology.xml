@@ -11,10 +11,11 @@
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion">
-        <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion/0.1"/>
+        <owl:versionIRI rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion/0.2"/>
         <ns:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, LocaliData)</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-20</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Este vocabulario se utiliza para la descripción de datos relacionados con subvenciones concedidas por un municipio. Esta ontología podrá sufrir cambios hasta que se consiga un acuerdo suficiente sobre los términos que se incluyen en ella.</dc:description>
         <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://vocab.linkeddata.es/datosabiertos/def/hacienda/presupuestos</dc:identifier>
         <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Creative Commons Attribution 4.0 International (CC BY 4.0)</dc:rights>
         <dc:title xml:lang="es">Vocabulario para la representación de datos sobre subvenciones concedidas por un municipio</dc:title>
@@ -133,7 +134,7 @@
         <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-03-20</terms:issued>
         <rdfs:comment xml:lang="es">Entidad que financia la subvención</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion"/>
-        <rdfs:label xml:lang="es">entidad financiadora</rdfs:label>
+        <rdfs:label xml:lang="es">entidad  financiadora</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -227,10 +228,10 @@
         <rdfs:label xml:lang="es">Subvención</rdfs:label>
     </owl:Class>
     <rdf:Description>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HTML</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RDF</rdfs:label>
     </rdf:Description>
     <rdf:Description>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RDF</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HTML</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 
