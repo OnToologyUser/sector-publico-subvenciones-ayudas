@@ -1,0 +1,59 @@
+http://www.zaragoza.es/api/recurso/sector-publico/subvencion/2014/1
+
+{
+  "@context": {
+    "id": "http://purl.org/dc/terms/identifier",
+    "importe": "http://purl.org/goodrelations/v1#hasCurrencyValue",
+    "programa": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#programa",
+    "title": "http://purl.org/dc/terms/title",
+    "politicaGasto": "http://www.w3.org/2004/02/skos/core#broader",
+    "economico": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#economico",
+    "linea": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#lineaFinanciacion",
+    "lineaEstrategica": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#lineaEstrategica",
+    "modalidad": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#modalidad"
+  },
+  "@id": "http://www.zaragoza.es/api/recurso/sector-publico/subvencion/2014/1",
+  "@type": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion",
+  "id": 1,
+  "importe": 1550126,
+  "servicio": {
+    "@context": {
+      "url": "http://www.w3.org/2006/vcard/ns#url"
+    },
+    "@id": "http://www.zaragoza.es/api/recurso/sector-publico/servicio/61278",
+    "@type": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Servicio",
+    "id": 61278,
+    "title": "SERVICIOS SOCIALES",
+    "url": "http://www.zaragoza.es/api/recurso/sector-publico/subvencion/2014/?q=servicio==SERVICIOS%20SOCIALES"
+  },
+  "programa": {
+    "@context": {
+      "areaGasto": "http://www.w3.org/2004/02/skos/core#inScheme"
+    },
+    "@id": "http://www.zaragoza.es/api/recurso/sector-publico/subvencion/programa/231",
+    "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+    "id": 231,
+    "title": "Acción social",
+    "politicaGasto": {
+      "@id": "http://www.zaragoza.es/api/recurso/sector-publico/subvencion/politica/23",
+      "@type": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#PoliticaGasto",
+      "id": 23,
+      "title": "Servicios Sociales y promoción social",
+      "areaGasto": {
+        "@id": "http://www.zaragoza.es/api/recurso/sector-publico/subvencion/area/2",
+        "@type": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#AreaGasto",
+        "id": 2,
+        "title": "Actuaciones de Protección y Promoción Social"
+      }
+    }
+  },
+  "economico": {
+    "@id": "http://www.zaragoza.es/api/recurso/sector-publico/subvencion/economico/48000",
+    "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+    "id": 48000,
+    "title": "A Familias e Instituciones sin fines de lucro"
+  },
+  "linea": "SUBVENCIONES Y CONVENIOS EN MATERIA DE ACCION SOCIAL",
+  "lineaEstrategica": "ACCION SOCIAL",
+  "modalidad": "CONCURRENCIA"
+}

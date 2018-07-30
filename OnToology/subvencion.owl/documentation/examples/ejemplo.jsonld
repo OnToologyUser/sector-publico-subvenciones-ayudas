@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "id": "http://purl.org/dc/terms/identifier",
+    "title": "http://purl.org/dc/terms/title",
+    "importe": "http://purl.org/goodrelations/v1#hasCurrencyValue",
+    "programa": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#programa",
+    "politicaGasto": "http://www.w3.org/2004/02/skos/core#broader",
+    "economico": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#economico",
+    "linea": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#lineaFinanciacion",
+    "adjudicacion": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#fechaAdjudicacion",
+    "adjudicador": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#entidadFinanciadora"
+  },
+  "@id": "http://www.zaragoza.es/api/recurso/sector-publico/subvencion/2013/3126",
+  "@type": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#Subvencion",
+  "id": 3126,
+  "adjudicatario": {
+    "@id": "http://www.zaragoza.es/api/recurso/sector-publico/adjudicatario/25187877W",
+    "id": "25187877W"
+  },
+  "title": "Protocolo de colaboración de 5 de diciembre de 2013 entre el Área de Acción Social y Deportes del Ayuntamiento de Zaragoza y la SOCIEDADMunicipal Zaragoza Vivienda para Prevención de la exclusión residencial a través de la vivienda y los programas sociales",
+  "importe": 526.67,
+  "area": {
+    "@id": "http://www.zaragoza.es/api/recurso/sector-publico/organismo/10",
+    "id": 10,
+    "title": "SOCIEDAD MUNICIPAL ZARAGOZA VIVIENDA SLU"
+  },
+  "servicio": {
+    "@context": {
+      "url": "http://www.w3.org/2006/vcard/ns#url"
+    },
+    "title": "SOCIEDAD MUNICIPAL ZARAGOZA VIVIENDA, SLU",
+    "url": "http://www.zaragoza.es/api/recurso/sector-publico/subvencion/2013/?q=servicio==SOCIEDAD%20MUNICIPAL%20ZARAGOZA%20VIVIENDA%2C%20SLU"
+  },
+  "programa": {
+    "@context": {
+      "areaGasto": "http://www.w3.org/2004/02/skos/core#inScheme"
+    },
+    "@id": "http://www.zaragoza.es/api/recurso/sector-publico/subvencion/programa/152",
+    "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+    "id": 152,
+    "title": "Vivienda",
+    "politicaGasto": {
+      "@id": "http://www.zaragoza.es/api/recurso/sector-publico/subvencion/politica/15",
+      "@type": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#PoliticaGasto",
+      "id": 15,
+      "title": "Vivienda y urbanismo",
+      "areaGasto": {
+        "@id": "http://www.zaragoza.es/api/recurso/sector-publico/subvencion/area/1",
+        "@type": "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#AreaGasto",
+        "id": 1,
+        "title": "Servicios Públicos Básicos"
+      }
+    }
+  },
+  "economico": {
+    "@id": "http://www.zaragoza.es/api/recurso/sector-publico/subvencion/economico/44905",
+    "@type": "http://www.w3.org/2004/02/skos/core#Concept",
+    "id": 44905,
+    "title": "Otras subvenciones a entes públicos y sociedades mercantiles de la Entidad Local"
+  },
+  "linea": "REPARACION Y MEJORAS EN VIVIENDA",
+  "adjudicacion": "20131220",
+  "adjudicador": {
+    "title": "SOCIEDAD MUNICIPAL ZARAGOZA VIVIENDA, S.L.U."
+  }
+}
