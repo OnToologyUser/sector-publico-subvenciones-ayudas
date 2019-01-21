@@ -1,7 +1,14 @@
 {
   "@context" : {
+    "basesReguladoras" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#basesReguladoras"
+    },
     "versionInfo" : {
       "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "tipoInstrumento" : {
+      "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#tipoInstrumento",
+      "@type" : "@id"
     },
     "entidadFinanciadora" : {
       "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#entidadFinanciadora",
@@ -9,6 +16,9 @@
     },
     "license" : {
       "@id" : "http://creativecommons.org/ns#license"
+    },
+    "Organization" : {
+      "@id" : "http://www.w3.org/ns/org#Organization"
     },
     "issued" : {
       "@id" : "http://purl.org/dc/terms/issued"
@@ -31,8 +41,15 @@
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
+    "Concept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    },
     "creator" : {
       "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
     },
     "lineaFinanciacion" : {
       "@id" : "http://vocab.linkeddata.es/datosabiertos/def/sector-publico/subvencion#lineaFinanciacion",
@@ -51,6 +68,9 @@
     "isDefinedBy" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
     },
+    "ConceptScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    },
     "title" : {
       "@id" : "http://purl.org/dc/elements/1.1/title"
     },
@@ -66,6 +86,10 @@
     },
     "hasFormat" : {
       "@id" : "http://purl.org/dc/terms/hasFormat"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
     },
     "description" : {
       "@id" : "http://purl.org/dc/elements/1.1/description"
