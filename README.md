@@ -11,6 +11,8 @@ La primera versión de este vocabulario fue publicada en marzo del año 2015. El
 * [03/05/2018] Aceptado pull request de OnToology para la generación de documentación [[OnToology update #1]](https://github.com/opencitydata/sector-publico-subvenciones-ayudas/pull/1)
 * [12/05/2018] Reorganización de carpetas [[Clean Update #5]](https://github.com/opencitydata/sector-publico-subvenciones-ayudas/pull/5)
 * [17/05/2018] Regeneración de la documentación como estaba publicada [[Documentacion Actualizada]](https://github.com/opencitydata/sector-publico-subvenciones-ayudas/commit/9f817d4bd634380f543debf414da3763138b6c12)
+* [21/01/2019] Añadidos algunos nuevos prefijos y generación de algunas nuevas propiedades (por ejemplo, tipoInstrumento) y sus restricciones correspondientes para dar soporte a requisitos procedentes del proyecto Ciudades Abiertas (www.ciudadesabiertas.es)
+
 ## Ficha de datos originales (OjoAlData100)
 A continuación se muestran también los datos originales obtenidos del grupo de trabajo OjoAlData100.
 
